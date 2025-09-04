@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    justify-items: center;
+}
+
+.container {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(223, 221, 221);
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.container__box {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(148, 151, 151);
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.container--right {
+    justify-content: flex-end;
+}
+
+.container--inline {
+    display: inline-flex;
+}
+
+.container--center {
+    justify-content: center;
+}
+
+.container__box--big {
+    height: 90px;
+}
